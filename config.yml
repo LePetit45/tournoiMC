@@ -1,0 +1,11 @@
+#Definit le nombre maximum de joueurs par equipe
+effectifEquipe: 2
+
+#Definit la probabilite de drop des tetes de wither
+tauxDropTeteWither: 10
+
+#Le classement
+classement:
+  guardian:
+  wither:
+  enderdragon:

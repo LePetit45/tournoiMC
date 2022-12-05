@@ -1,0 +1,33 @@
+name: TournoiNdi
+version: 1.6
+api-version: 1.19
+author: JacquelineDuGame
+main: fr.jacquelinedugame.tournoindi2022.Main
+commands:
+  startspeedrun:
+    description: Permet de lancer le tournoi
+    permission: tournoindi.startspeedrun.use
+  createteam:
+    description: Permet de creer une team et ajoute le joueur
+    permission: tournoindi.createteam.use
+  jointeam:
+    description: Permet de rejoindre une team
+    permission: tournoindi.jointeam.use
+  leaveteam:
+    description: Permet de quitter une team si la partie n as pas encore commence
+    permission: tournoindi.leaveteam.use
+  finishspeedrun:
+    description: Permet de terminer une partie de speedrun
+    permission: tournoindi.finishspeedrun.use
+  sendcoords:
+    description: Permet d envoyer ses coordonnees a son equipe
+    permission: tournoindi.sendcoords.use
+  resetspeedrun:
+    description: Permet de reset le speedrun
+    permission: tournoindi.resetspeeedrun.use
+  fautfairequoi:
+    description: Permet de savoir quoi faire pour le tournoi
+    permission: tournoindi.fautfairequoi.use
+  stopjoin:
+    description: Permet de bloquer ou debloquer le serveur quand la partie a commence
+    permission: tournoindi.stopjoin.use
