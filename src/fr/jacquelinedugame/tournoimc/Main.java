@@ -212,6 +212,7 @@ public class Main extends JavaPlugin{
 			int cpt = 1;
 			for (String team : classementFinal) {
 				p.sendMessage("§e"+String.valueOf(cpt)+". "+team);
+				cpt+=1;
 			}
 		}
 	}
