@@ -1,19 +1,25 @@
-package fr.jacquelinedugame.tournoindi2022;
+package fr.jacquelinedugame.tournoimc;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-public class CommandFinishSpeedRun implements CommandExecutor {
+public class CommandStartSpeedRun implements CommandExecutor {
 	private Main main;
 	
-	public CommandFinishSpeedRun(Main main) {
+	public CommandStartSpeedRun(Main main) {
 		this.main = main;
 	}
+	
 	@Override
 	public boolean onCommand(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
-		main.finish();
-		return false;
+		if (main.getState().equals(State.WAITING)){
+			main.startGame();
+			return true;
+		}
+		else {
+			return false;
+		}
 	}
 
 }

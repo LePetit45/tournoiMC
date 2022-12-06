@@ -4,7 +4,7 @@ effectifEquipe: 2
 #Definit la probabilite de drop des tetes de wither
 tauxDropTeteWither: 10
 
-#Le classement
+#Le classement. Attention l'ordre des team est important
 classement:
   guardian:
   wither:

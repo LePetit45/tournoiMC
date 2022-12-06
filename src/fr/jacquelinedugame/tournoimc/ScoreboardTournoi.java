@@ -1,4 +1,4 @@
-package fr.jacquelinedugame.tournoindi2022;
+package fr.jacquelinedugame.tournoimc;
 
 import java.util.Set;
 
